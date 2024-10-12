@@ -1,0 +1,41 @@
+.contenedor{
+    padding: 5px;
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "header header"
+                        "nav nav"
+                        "nav2 nav2"
+                        "ads contenido"
+                        "footer footer";
+}
+.contenedor .header{
+    background-color: rgb(109, 178, 234);
+    grid-area: header;
+    
+}
+.contenedor .nav{
+    background-color: azure;
+    grid-area: nav;
+}
+.contenedor .nav2{
+    grid-area: nav2;
+}
+
+.contenedor .contenido{
+    background-color: blueviolet;
+    grid-area: contenido;
+
+}
+.contenedor .ads{
+    background-color: rgb(212, 45, 181);
+    grid-area: ads;
+}
+.contenedor .footer{
+    background-color: cadetblue;
+    grid-area: footer;
+}
+.cont .dos .card-img-top{
+    width: 100px;
+    height: 100px;
+}
